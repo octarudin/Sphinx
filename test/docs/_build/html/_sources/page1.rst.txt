@@ -1,0 +1,44 @@
+This is our First Sphinx Page.
+=================================
+
+This is our first attemp at writing sphinx documentation.
+
+* First we built a sphinx documentation
+* Next we built our html pages
+* we built them with the ".\make html" command 
+
+
+Tahapan:
+
+* env\Scripts\activate
+   * aktifkan virtual environment di Windows
+* pip install sphinx
+* pip install sphinx_rtd_theme
+* pip install sphinx_copybutton
+* pip install sphinx_code_tabs
+* pip install sphinx_autobuild
+* extensions = ['sphinx_rtd_theme', 'sphinx_copybutton', 'sphinx_code_tabs']
+   * tambahkan ekstensi di conf.py
+* source\[nama-file.rst]
+   * buat file rst baru, ikuti kaidah-kaidah pembuatan .rst
+* .\make html
+   * build atau compile file rst, outputnya web html
+* sphinx-autobuild source build/html
+   * atau bisa juga pake command ini
+
+ada lagi sphinx-autodoc, sphinx-viewcode, dan sphinx-napoleon
+
+This is a second header
+--------------------------
+
+This is our test of the second header.
+
+* This is our new image that we uploaded
+
+.. figure:: /images/goat.jpg
+    :align: center
+    :alt: Goat image
+    :scale: 30%
+
+    This is an example image of the Goat Logo with a caption.
+
