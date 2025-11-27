@@ -25,7 +25,8 @@ Tahapan:
    * build atau compile file rst, outputnya web html
 * sphinx-autobuild source build/html
    * atau bisa juga pake command ini
-* sphinx-apidoc -o [source_folder] [destination_folder]
+* sphinx-apidoc -o [destination_folder] [program_file]
+   * program_file = main.c, test.go, atau file source program lainnya
 
 ada lagi sphinx-autodoc, sphinx-viewcode, dan sphinx-napoleon
 
